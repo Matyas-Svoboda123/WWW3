@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Školní portál - Přihlášení</title>
+</head>
+<body>
+<h1>Školní portál</h1>
+
+<form action="login.php" method="post">
+    <fieldset>
+        <legend>Přihlášení uživatele</legend>
+
+        <label for="username">Uživatelské jméno:</label><br>
+        <input type="text" name="username" id="username" required maxlength="500"><br><br>
+
+        <label for="password">Heslo:</label><br>
+        <input type="password" name="password" id="password" required maxlength="500"><br><br>
+
+        <input type="submit" value="Přihlásit">
+    </fieldset>
+</form>
+</body>
+</html>
